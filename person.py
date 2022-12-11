@@ -11,7 +11,7 @@ class Persona:
     def conversar(self, otra_persona):
         return f'Hola {otra_persona.nombre} me llamo {self.nombre}, estudio en {self.centroestudios}'
 
-if _name_ == "_main_":
+if __name__ == '__main__':
     Persona2 = Persona("Juan",18,"Yavirac")
     Persona1 = Persona("Alisson",21,"UCE")
     
